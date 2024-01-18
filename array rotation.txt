@@ -1,0 +1,22 @@
+let Array1=[1,2,3,4,5];
+let k=2;
+let n=Array1.length;
+console.log(rotate(Array1,k,n));
+
+ function rotate(a,k,n)
+ {
+     let Array2=[];
+     let r=k%n;
+     for(let i=0; i<n; i++)
+     {
+         if(i<r)
+         {
+             Array2[n+i-r]=a[i];
+         }
+         else
+         {
+             Array2[i-r]=a[i];
+         }
+     }
+     return Array2;
+ }

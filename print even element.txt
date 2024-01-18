@@ -1,0 +1,15 @@
+
+let numbers=[];
+let n=prompt("Enter a number");
+for(let i=0; i<n; i++)
+{
+    numbers[i]=prompt("Enter a number ")
+}
+let even = [];
+let i = 0;
+while(i < numbers.length) {
+	if (numbers[i] % 2 == 0)
+	even.push(numbers[i]);
+	i++;
+}
+console.log(ev

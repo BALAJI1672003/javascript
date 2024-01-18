@@ -1,0 +1,6 @@
+let n=prompt("Enter a number");
+let stringreverse=n.toString();
+let arrayString=stringreverse.split("");
+arrayString=arrayString.reverse();
+let reverseString=arrayString.join("");
+console.log(reverseString);
